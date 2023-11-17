@@ -27,7 +27,7 @@ namespace OnlineShop.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Provider=SQLNCLI11;Data Source=WIN-189S9SK9LL9\\SQLEXPRESS;Integrated Security=SSP" +
-            "I;Initial Catalog=online_shop")]
+            "I;Initial Catalog=online_shop;charset=UTF8;collation=Cyrillic_General_CI_AS")]
         public string ConnectionString {
             get {
                 return ((string)(this["ConnectionString"]));

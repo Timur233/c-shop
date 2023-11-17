@@ -46,5 +46,10 @@ namespace OnlineShop
         {
             new AdminCategories().ShowDialog();
         }
+
+        private void товарыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new AdminProducts().ShowDialog();
+        }
     }
 }
